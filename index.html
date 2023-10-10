@@ -18,7 +18,6 @@
 
 @font-face {
   font-family: "MeganSignature";
-  /* src: url("fonts/BodoniXT.ttf") */
   src: url("AmostelySignature.ttf")
 }
 
@@ -37,7 +36,8 @@
 
 body, h1, h2, h4, h5, h6 {
   font-family: woodford-bourne;
-  color: #383C50;
+  color: black;
+  /* color: #383C50; */
 }
 
 p, li {
@@ -47,7 +47,8 @@ p, li {
 
 body, html {
     height: 100%;
-    color: #383C50;
+    color: black;
+    /* color: #383C50; */
     /*background-color: #EEF1F2;*/
     line-height: 1.8;
     /*scroll-behavior: smooth;*/
@@ -102,7 +103,7 @@ h3 {
 
 /* Style the logo */
 #navbar #logo{
-  font-size: 90px;
+  font-size: 80px;
   transition: 0.6s;
 }
 
@@ -146,7 +147,7 @@ h3 {
   display:inline-block;
   text-decoration:none;
   font-family: woodford-bourne;
-  color: #383C50;
+  color: black;
   font-size:15px;
   font-weight:600;
   line-height:100%;
@@ -171,7 +172,7 @@ h3 {
   display:inline-block;
   text-decoration:none;
   font-family: woodford-bourne;
-  color: #383C50;
+  color: black;
   font-size:15px;
   font-weight:600;
   line-height:100%;
@@ -186,7 +187,7 @@ h3 {
 }
 
 .booknow_box:hover{
-  border: 2px solid currentColor;
+  border: 3px solid currentColor;
   color: #77633d;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -201,11 +202,11 @@ a.url:hover{
 
 hr {
 	display: inline-block;
-	width: 300px;
-	height: 3px;
+	width: 295px;
+	height: 2px;
 	margin: 10px;
   overflow: hidden;
-  background-color: #383C50;
+  background-color: black;
 }
 
 .center-row {
@@ -274,9 +275,9 @@ hr {
   margin-left: 33%;
 }
 
-.navy-background{
+.text-background{
   color:#fff!important;
-  background-color:#383C50!important;
+  background-color:#444B23!important;
 }
 
 .thingstodo_container {
@@ -332,7 +333,7 @@ hr {
 }
 
 .card_border {
-  border: 3px solid #151B54;
+  border: 3px solid black;
   padding: 5px;
   padding-top: 7px;
   /* position: absolute; */
@@ -440,7 +441,7 @@ hr {
 }
 
 .lighthouse {
-  background-image: url("BanegatLight_BackgroundImage.png");
+  /* background-image: url("BanegatLight_BackgroundImage.png"); */
   min-height: 100%;
 }
 
@@ -483,7 +484,7 @@ a {
 }
 
 #topnav #logo2 {
-  font-size: 60px;
+  font-size: 40px;
   transition: 0.6s;
 }
 
@@ -500,7 +501,7 @@ a {
 
 /* Style navigation menu links */
 #topnav a.button {
-  color: #383C50;
+  color: black;
   text-decoration: none;
   font-size: 40px;
 }
@@ -537,12 +538,16 @@ a {
    
     <!-- Title -->
     <div id="navbar" class="w3-hide-small w3-hide-medium">
-      <div class="rsvp" style="margin-right: 5%;">
-        <p><a href="https://www.eventbrite.com/e/liz-justins-brunch-rsvp-tickets-160157095183" target="_blank" class="booknow_box card_border" style="width:120px;">RSVP FOR BRUNCH</a></p>
-      </div>
+      <!-- <div class="rsvp" style="margin-right: 5%;">
+        <p><a href="https://withjoy.com/devinandolivia" target="_blank" class="booknow_box card_border" style="width:120px;">RSVP</a></p>
+      </div> -->
   
-      <!-- <p id="wedding_hashtag">#ToHaveAndToHaber</p> -->
-    	<a href="#home" id="logo" class="button-title" style="font-family:AmostelySignature; font-weight: inherit;">Devin & Olivia</a>
+      <div style="position: relative;">
+        <!-- <img src="icons_frames/Bumble Bee (1).png" style="height: 40px; width: 40px; position: absolute; right: 335px; top: 20px;"> -->
+        <!-- <img src="icons_frames/WM 1.png" style="height: 90px; width: 50px; position: absolute; bottom: 25px; right: 360px; transform: rotate(160deg)"> -->
+        <!-- <img src="icons_frames/WF_Tree_18.png" style="height: 130px; width: 75px; position: absolute; bottom: 5px; left: 335px; z-index: -1;"> -->
+    	  <a href="#home" id="logo" class="button-title" style="font-family:AmostelySignature; font-weight: inherit;">Devin & Olivia</a>
+      </div>
     
 
     <!-- Right 
@@ -551,7 +556,7 @@ a {
     </a>
     -->
 
-      <a href="#ourwedding" class="w3-hide-small w3-hide-medium button w3-center">OUR STORY</a>
+      <a href="#ourwedding" class="w3-hide-small w3-hide-medium button w3-center">RSVP</a>
       <a href="#schedule" class="w3-hide-small w3-hide-medium button w3-center">SCHEDULE OF EVENTS</a>
       <a href="#wheretostay" class="w3-hide-small w3-hide-medium button w3-center">ACCOMMODATIONS</a>
       <a href="#thingstodo" class="w3-hide-small w3-hide-medium button w3-center">THINGS TO DO</a>
@@ -568,7 +573,7 @@ a {
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks" class="w3-center" onclick="toggleFunction()">
           <br>
-          <a href="#ourwedding" class="button">OUR STORY</a><br>
+          <a href="#ourwedding" class="button">RSVP</a><br>
           <a href="#schedule" class="button">SCHEDULE</a><br>
           <a href="#wheretostay" class="button">ACCOMMODATIONS</a><br>
           <a href="#thingstodo" class="button">THINGS TO DO</a><br>
@@ -590,18 +595,38 @@ a {
 
 <!-- Our Wedding - Big Screen -->
 <div class="lighthouse">
-  <div class="w3-content w3-container w3-padding-64 w3-hide-small" id="ourwedding">
-      <div style="padding-top: 8%; padding-bottom: 12%;">
-        <h2 class="w3-center" style="font-family:AmostelySignature; margin-top:-40px; font-size: 80px;">Devin Taylor</h2>
-        <h3 class="w3-center" style="font-family:AmostelySignature; margin-top:-70px; font-size: 100px;">&</h3>
-        <h2 class="w3-center" style="font-family:AmostelySignature; margin-top:-70px; font-size: 80px;">Olivia Shlansky</h2>
-        <div class="w3-center" style="margin-top: 100px;">
-          <img src="ScallopShell.png" alt="Scallop Shell" style="height: 60px; width: 75px;">
+  <div class="w3-content w3-container w3-padding-64 w3-hide-small" id="ourwedding" style="margin-top: 50px; ">
+    <div style="margin-bottom: 150px;">
+      <div class="w3-center" style="position: relative; text-align: center; margin-top: 30%;">
+        <div class="w3-content w3-container">
+          <h2 class="w3-center" style="font-family:AmostelySignature; margin-top:-200px; font-size: 70px; text-align: center;">Devin Taylor</h2>
+          <h3 class="w3-center" style="font-family:AmostelySignature; margin-top:-120px; font-size: 90px; text-align: center;">&</h3>
+          <h2 class="w3-center" style="font-family:AmostelySignature; margin-top:-70px; font-size: 70px; text-align: center;">Olivia Shlansky</h2>
         </div>
-        <h3 class="w3-center" style="margin-top:100px; font-size: 25px; font-family: woodford-bourne;">ARE GETTING MARRIED ON</h3>
-        <h2 class="w3-center" style="font-family:AmostelySignature; margin-top:-10px; font-size: 80px;">Saturday, May 4, 2024</h2>
-        <h3 class="w3-center" style="margin-top:25px; margin-bottom: 100px; font-size: 25px; font-family: woodford-bourne;">AT THE WEST MOUNTAIN INN,<br>ARLINGTON, VT</h3>
+        <img src="icons_frames/frame 5 clear.png" alt="Flower Frame" style="height: 800px; width: 725px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
       </div>
+      <div>
+        <div class="w3-center" style="margin-top: -25px;">
+          <hr>
+        </div>
+        <h2 class="w3-center" style="font-family: woodford-bourne; margin-top: -5px; font-size: 28px;">Saturday, May 4, 2024</h2>
+        <h2 class="w3-center" style="margin-top: -10px; font-size: 28px; font-family: woodford-bourne;">The West Mountain Inn</h2> 
+        <h2 class="w3-center" style="margin-top: -20px; font-size: 28px; font-family: woodford-bourne;">Arlington, VT</h2>
+        <div class="w3-center">
+          <p><a href="https://withjoy.com/devinandolivia" target="_blank" class="booknow_box card_border" style="position: relative; text-align: center; width:105px; font-size: 20px; letter-spacing: 2px;">RSVP</a></p>
+        </div>
+        <p class="w3-center" style="margin-top: -20px;"><em>by March 5, 2024</em></p>
+      </div>
+    </div>
+
+      <!-- <div class="w3-center" style="margin-bottom: 150px;">
+        <h3 style="font-family: AmostelySignature; font-size: 80px;">Our Story</h3>
+        <img src="icons_frames/WF_Wood_Cut_2.png" alt="Wood Cut" style="height: 80px; width: 80px;">
+      </div> -->
+
+      <!-- Our Story -->
+    <!-- <div class="w3-center w3-hide-small" style="margin-top: 100px; margin-bottom: 20px;"> -->
+    <!-- </div> -->
   </div>
 
   <!-- Our Wedding - Small Screen-->
@@ -629,8 +654,8 @@ a {
 
   <!-- Menu Container -->
   <div class="w3-center w3-hide-small" style="margin-bottom: 20px;">
-    <h3 style="margin-bottom: 30px; font-family: AmostelySignature; font-size: 80px;">Schedule of Events</h3>
-    <img src="ScallopShell.png" alt="Clam Shell" style="height: 60px; width: 75px;">
+    <h3 style="margin-bottom: -10px; font-family: AmostelySignature; font-size: 80px;">Schedule of Events</h3>
+    <img src="icons_frames/flower bar 4.png" alt="Events" style="margin-bottom: -10px; height: 120px; width: 250px;">
   </div>
 
   <div class="w3-center w3-hide-medium w3-hide-large" style="margin-bottom: 20px;">
@@ -638,89 +663,47 @@ a {
     <img src="ScallopShell.png" alt="Clam Shell" style="height: 60px; width: 75px;">
   </div>
 
-  <div class="w3-container" id="itinerary">
+  <div class="w3-container">
     <div class="w3-content w3-center" style="max-width:600px">
-    
-      <div class="w3-row w3-center w3-padding">
-        <a href="javascript:void(0)" onclick="openMenu(event, 'May4');" id="myLink">
-          <div class="w3-col tablink" style="font-size: 16px; width: 50%; font-family: woodford-bourne;">Saturday, May 4, 2024</div>
-        </a>
-        <a href="javascript:void(0)" onclick="openMenu(event, 'May5');">
-          <div class="w3-col tablink" style="font-size: 16px; width: 50%; font-family: woodford-bourne;">Sunday, May 5, 2024</div>
-        </a>
-        <!-- <a href="javascript:void(0)" onclick="openMenu(event, 'Sept20');">
-          <div class="w3-col tablink" style="font-size: 16px; width: 33%; font-family: woodford-bourne;">Sunday, September 26, 2021</div>
-        </a> -->
+
+      <div>
+        <h5 style="font-size: 24px;">Please join us for a weekend full of celebration at</h5>
+        <h4 style="font-size: 32px;">The West Mountain Inn</h4>
+        <p style="margin-top: -20px; font-size: 24px;">144 West Mountain Inn Rd, Arlington, VT 05250</p>
+        <div class="w3-center">
+          <div class="row" style="margin-top: -20px;">
+            <p><a href="https://maps.app.goo.gl/K36ZuwBViRHaEFAn6" target="_blank" class="booknow_box card_border" style="width:105px; margin-right: 14px; font-size: 20px; letter-spacing: 2px;">MAP</a></p>
+            <p><a href="https://westmountaininn.com/" target="_blank" class="booknow_box card_border" style="width:105px; letter-spacing: 2px; font-size: 20px;">WEBSITE</a></p>
+          </div>
+        </div>
       </div>
 
-      <div id="May4" class="w3-container itinerary w3-padding-32">
-        <div>
-          <h5 style="font-size: 20px; font-family: woodford-bourne;">The Ceremony</h5>
-          <p>The West Mountain Inn</p>
-          <div class="w3-opacity">
-            <p><a class="url" href="https://goo.gl/maps/CQ6KDfVchvti6g8C9" target="_blank">Arlington, VT</a></p>
-            <p>4:00 PM</p>
-          </div>
+      <hr>
+
+      <div>
+        <h3 style="font-size: 42px;">Wedding Weekend Schedule</h3>
+
+        <div class="w3-content">
+          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Friday, May 3rd</div>
+          <h4 style="font-size: 32px; margin-bottom: -20px;">The Welcome Dinner</h4>
+          <p style="font-size: 24px;">7:00 PM - 9:00 PM</p>
         </div>
 
-        <hr>
-
-        <div style="padding-top: 5%; width: 100%;" class="w3-container center-row">
-          <h5 style="font-size: 20px; font-family: woodford-bourne;">Cocktail Hour & Reception</h5>
-          <p><a class="url" href="https://www.parkersgaragelbi.com/" target="_blank">The West Mountain Inn</a></p>
-          <div class="w3-opacity">
-            <p><a class="url" href="https://goo.gl/maps/WLi4CLMGLGx7Pnm67" target="_blank">Dining Room</a></p>
-            <p>5:00 PM - 11:00 PM</p>
-            <p><em>Celebration Immediately Following the Ceremony!<br>Join us for a night of dinner and dancing.</em></p>
-          </div>
+        <div class="w3-content">
+          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Saturday, May 4th</div>
+          <h4 style="font-size: 32px; margin-bottom: -24px;">The Wedding of</h4>
+          <h4 style="font-size: 32px; margin-bottom: -20px;">Devin Taylor & Olivia Shlansky</h4>
+          <p style="margin-bottom: -16px; font-size: 24px;">4:00 PM</p> 
+          <p style="margin-bottom: -20px; font-size: 20px;">Celebration Immediately Following the Ceremony!<br>Join us for a night of dinner and dancing.</p>
+          <p style="font-size: 20px;">Formal Dress Attire.</p>
         </div>
-      
-        <!-- <div style="padding-top: 5%; width: 100%;" class="w3-container center-row">
-          <h5 style="font-size: 20px; font-family: woodford-bourne;">Transportation</h5>
-            <p><a class="url" href="https://www.birdandbettys.com/" target="_blank">Bird & Betty's</a></p>
-            <div class="w3-opacity">
-              <p><a class="url" href="https://goo.gl/maps/1oHxx6huaUSMmkBy7" target="_blank">529 Dock Road, Beach Haven, NJ 08008</a></p>
-              <p>11:00 PM</p>
-              <p><em>Immediately Following Reception!<br>Join us for an after party at Bird and Betty’s, directly across the street from Parker’s Garage! For guests who are ready to kick-off their dancing shoes for the night, the first shuttle will be on-site at Parker’s Garage at 11:00pm for stops at Engelside Inn and Drifting Sands. The last shuttle of the night will depart Bird and Betty’s at 12:00 AM to drop guests off at both hotels.</em></p>
-            </div>
-        </div> -->
+
+        <div class="w3-content">
+          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Sunday, May 5th</div>
+          <h4 style="font-size: 32px; margin-bottom: -24px;">Farewell Brunch</h4>
+          <p style="font-size: 24px; margin-bottom: -16px;">9:00 AM - 11:00 AM</p>
+        </div>
       </div>
-
-      <div id="May5" class="w3-container itinerary w3-padding-32">
-        <div style="padding-top: 5%; width: 100%;" class="w3-container center-row">
-          <h5 style="font-size: 20px; font-family: woodford-bourne;">Brunch at the West Mountain Inn</h5>
-          <p><a class="url" href="https://www.birdandbettys.com/" target="_blank">The West Arlington Inn</a></p>
-          <div class="w3-opacity">
-            <p><a class="url" href="https://goo.gl/maps/1oHxx6huaUSMmkBy7" target="_blank">Dining Room</a></p>
-            <p>11:00 AM - 1:00 PM</p>
-          </div>
-            <p><a href="https://www.eventbrite.com/e/liz-justins-brunch-rsvp-tickets-160157095183" target="_blank" class="booknow_box card_border" style="width:105px;">RSVP</a></p>
-          <div class="w3-opacity">
-            <p><em>Recover with us back at the West Mountain Inn the morning after with Mimosas, Bloody Mary's, and Brunch bites. Please RSVP below if you plan on joining! Not sure yet? No worries! RSVP not required but would be helpful in advance.</em></p>
-          </div>
-        </div>
-
-        <!-- <hr> -->
-
-        <!-- <div style="width: 100%;" class="w3-container center-row">
-          <p><a class="url" href="https://www.birdandbettys.com/" target="_blank">Seashell Resort & Beach Club</a></p>
-          <div class="w3-opacity">
-            <p><a class="url" href="https://goo.gl/maps/1oHxx6huaUSMmkBy7" target="_blank">529 Dock Rd, Beach Haven, NJ 08008</a></p>
-            <p><em>Following Brunch, join us at the Centre St. beach for some R+R followed by Happy Hour at the Sea Shell Tiki Bar at 4:00 PM.</em></p>
-          </div>
-        </div> -->
-      </div>
-
-      <!-- <div id="Sept20" class="w3-container itinerary w3-padding-32">
-        <div>
-          <h5 style="font-size: 20px; font-family: woodford-bourne;">Weekend Farewell</h5>
-          <div class="w3-opacity">
-            <p>Details to come!</p>
-            <p>Address</p>
-            <p>Time</p><br>
-          </div>
-        </div>
-      </div>-->
     </div>
   </div>
 </div>
@@ -734,7 +717,7 @@ a {
 
   <div class="w3-center w3-hide-small" style="margin-bottom:20px;">
     <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">Accommodations</h3>
-    <img src="ScallopShell.png" alt="Fish" style="height: 60px; width: 75px;">
+    <img src="icons_frames/WF_House_3.png" alt="Cabin" style="height: 120px; width: 150px;">
   </div>
 
   <div class="w3-center w3-hide-medium w3-hide-large" style="margin-bottom:20px;">
@@ -742,37 +725,30 @@ a {
     <img src="ScallopShell.png" alt="Fish" style="height: 60px; width: 75px;">
   </div>
 
-  <!-- <div class="w3-center w3-hide-small">
-    <div style="width: 70%; display: block; margin: auto;">
-      <p>A room block is available at Drifting Sands Hotel under the Schumann – Haber reservation. Transportation will be provided from this hotel to the reception. </p>
-      <p>We also have a few additional non-block hotel recommendations that are oceanfront, affordable and located in the heart of Beach Haven. Most are very close to the reception. Transportation will also be provided to reception at the Engleside Inn. </p>
-      <p>Lastly, we would love our guests to stay for a long weekend and enjoy all the things we love about Beach Haven and Long Beach Island! We highly recommend renting a house on the island through Diane Turton realtors or online booking through AirBnB, VRBO, or the other online rental sites listed since September is a beautiful month to rent at the beach. Although September is also considered “off-season”, the island is a popular area year-round and houses do book up quickly, so don’t wait, book now! We recommend staying in Beach Haven (or very close to it) as the ceremony and reception will be held here and many of our recommended and favorite things to do are in this area. We look forward to seeing everyone on the island!</p>
-    </div>
-  </div>
-
-  <div class="w3-center w3-hide-medium w3-hide-large">
-    <div style="margin-top: -15px; height:350px; width:100%; overflow:auto;">
-      <p>A room block is available at Drifting Sands Hotel under the Schumann – Haber reservation. Transportation will be provided from this hotel to the reception. </p>
-      <p>We also have a few additional non-block hotel recommendations that are oceanfront, affordable and located in the heart of Beach Haven. Most are very close to the reception. Transportation will also be provided to reception at the Engleside Inn. </p>
-      <p>Lastly, we would love our guests to stay for a long weekend and enjoy all the things we love about Beach Haven and Long Beach Island! We highly recommend renting a house on the island since September is a beautiful month to rent at the beach. Although September is also considered “off-season”, the island is a popular area year-round and houses do book up quickly, so don’t wait, book now! We recommend staying in Beach Haven (or very close to it) as the ceremony and reception will be held here and many of our recommended and favorite things to do are in this area. We look forward to seeing everyone on the island!</p>
-    </div>
-  </div> -->
-
   <!-- Big Screen -->
 
   <div class="w3-container w3-center w3-hide-small">
 
-    <h3>Blocked Hotel</h3>
+    <h3 style="font-size: 24px;">A Wedding Room Block has been reserved at</h3>
     <div class="center-row">
       <div class="row"><br>
         <div class="w3-container" style="height: 100%; width: 55%;">
-          <h3 style="font-size: 20px;"><a href="https://www.dslbi.com/" target="_blank" class="url">Hotel Motel Holiday Inn</a></h3>
-          <p class="w3-opacity">Somewhere, Arlington, VT<br>(877) 524-7866<br><em>Located 15 minutes from venue</em></p>
-          <div style="margin-top: -15px; height:250px; width:100%; overflow:auto;">
-            <p>Please call the hotel directly to make a reservation under the Taylor – Shlansky wedding in order to get the group rates.</p>
-            <p>All reservations must be made on or before the cut-off date X/YY/ZZZZ or the rooms get released to the public. The front desk is open 9am-5pm.</p>
+          <h4 style="font-size: 32px;">The Hampton Inn & Suites</h4>
+          <p style="margin-top: -20px; font-size: 24px;">4519 Main St, Manchester, VT 05255</p>
+          <p style="margin-top: -30px; font-size: 24px;">(802) 362-4000</p>
+          <div class="center-row w3-center" style="margin-top: -8px; margin-bottom: 14px;">
+            <div class="row">
+              <p><a href="https://www.hilton.com/en/hotels/rutmvhx-hampton-suites-manchester/" target="_blank" class="booknow_box card_border" style="width:105px; margin-right: 14px; font-size: 20px; letter-spacing: 2px;">MAP</a></p>
+              <p><a href="https://www.hilton.com/en/hotels/rutmvhx-hampton-suites-manchester/" target="_blank" class="booknow_box card_border" style="width:105px; letter-spacing: 2px; font-size: 20px;">WEBSITE</a></p>
+            </div>
           </div>
-          <p><a href="https://www.dslbi.com/" target="_blank" class="booknow" style="width:105px;">BOOK NOW</a></p>
+          <hr>
+          <p style="font-size: 20px;">Located 15 minutes from the venue.<br>Transportation on May 4th will be provided to and from the Wedding Venue.</p>
+          <div style="margin-top: -15px;">
+            <p style="font-size: 20px;">Please call the hotel directly or follow the link above to make a reservation under the <span style="font-weight: bold;">TAYLOR-SHLANSKY</span> wedding in order to get the group rates. 
+              <br> 
+              All reservations must be made on or before the cut-off date X/YY/ZZZZ or the rooms get released to the public.<br>The front desk is open 9am-5pm.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -805,23 +781,49 @@ a {
 
   <div class="w3-center" style="margin-bottom:20px;">
     <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;" id="schedule">Things to Do</h3>
-    <img src="ScallopShell.png" alt="Starfish" style="height: 60px; width: 75px;">
+    <img src="icons_frames/WF_Fire_1.png" alt="Firepit" style="height: 130px; width: 100px;">
   </div>
 
   <div class="w3-center" style="max-width:600px; display: block; margin: auto;">
-    <div>
-      <p>Check out our favorite places on the island, from things to do, breakfast and coffee shops, good eats and drinks, and grocery and liquor stores. We hope you enjoy seeing what this island has to offer!</p>
-    </div>
 
     <div class="w3-container w3-padding-32">
       <div>
-        <h5 style="font-size: 20px; font-family: woodford-bourne;">The Beach!</h5>
-        <p>Each block on the island has a beach entrance and since it will be the off-season, badges are not required! We visit 5th Street Gazebo and Centre St. in Beach Haven.
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Hiking</h5>
+        <p>Trails on the West Mountain Inn property<br>
+          2 more hiking trails - Loop in Manchester and Waterfall
         </p>
       </div>
       <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
-        <h5 style="font-size: 20px; font-family: woodford-bourne;">Fantasy Island Amusement Park</h5>
-        <p>Fun night-time activity with an arcade, ice cream, burgers and more. Great people watching! 
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Museums</h5>
+        <p>Museum House
+        </p>
+      </div>
+      <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Farm Animals</h5>
+        <p>Llamas on the property <br>
+          One more thing
+        </p>
+      </div>
+      <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Coffee Shops</h5>
+        <p>One Coffee Shop
+        </p>
+      </div>
+      <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Restaurants</h5>
+        <p>One Restaurant
+        </p>
+      </div>
+      <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Beer & Liquor</h5>
+        <p>Distillery
+        </p>
+      </div>
+      <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+        <h5 style="font-size: 24px; font-family: woodford-bourne;">Shops</h5>
+        <p>Bookshop<br>
+          Chocolate Shop<br>
+          Wood Shop
         </p>
       </div>
     </div>
@@ -838,7 +840,7 @@ a {
 
   <div class="w3-center" style="margin-bottom: 20px;">
     <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">Frequently Asked Questions</h3>
-    <img src="ScallopShell.png" alt="Sea Shell" style="height: 60px; width: 75px;">
+    <img src="icons_frames/Bouquet 10.png" alt="FAQ" style="height: 120px; width: 80px;">
   </div>
   
   <div class="w3-center">
@@ -850,6 +852,17 @@ a {
     <!-- Big Screen -->
     <div class="w3-container w3-center w3-hide-small">
       <h3>FAQ</h3>
+
+      <div class="w3-container w3-padding-32">
+        <div>
+          <h5 style="font-size: 24px; font-family: woodford-bourne;">What is the dresscode for the wedding?</h5>
+          <p>Formal.</p>
+        </div>
+        <div style="margin-top: 10px; width: 100%;" class="w3-container center-row">
+          <h5 style="font-size: 24px; font-family: woodford-bourne;">Will transportation be provided?</h5>
+          <p>Yes.</p>
+        </div>
+      </div>
 
     </div>
 
@@ -869,7 +882,7 @@ a {
   
   <div class="w3-center">
     <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">Registry</h3>
-    <img src="ScallopShell.png" alt="Scallop Shell" style="height: 60px; width: 75px;">
+    <img src="icons_frames/WF_Wood_Cut_2.png" alt="Scallop Shell" style="height: 80px; width: 80px;">
   </div>
 
   <!-- Big Screen -->
@@ -980,13 +993,13 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "5px 8px";
     document.getElementById("topnav").style.padding = "5px 8px";
     document.getElementById("logo").style.fontSize = "60px";
-    document.getElementById("logo2").style.fontSize = "60px";
+    document.getElementById("logo2").style.fontSize = "40px";
     document.getElementById("navbar").style.borderBottom = "2px solid #383C50";
     document.getElementById("topnav").style.borderBottom = "2px solid #383C50";
   } else {
     document.getElementById("navbar").style.padding = "8px 8px";
     document.getElementById("topnav").style.padding = "8px 8px";
-    document.getElementById("logo").style.fontSize = "90px";
+    document.getElementById("logo").style.fontSize = "80px";
     document.getElementById("logo2").style.fontSize = "60px";
     document.getElementById("navbar").style.borderBottom = "none";
     document.getElementById("topnav").style.borderBottom = "none";
