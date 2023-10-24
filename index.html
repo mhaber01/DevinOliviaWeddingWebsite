@@ -44,7 +44,7 @@ body, html {
     height: 100%;
     color: black;
     line-height: 1.8;
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
     font-family: "neuton";
 }
 
@@ -638,13 +638,13 @@ a {
         <h3 class="w3-hide-large w3-hide-medium" style="font-size: 32px;">Wedding Weekend Schedule</h3>
 
         <div class="w3-content">
-          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Friday, May 3rd</div>
+          <div class="text-background w3-center" style="width: 100%; display: inline-block; font-size: 20px;">Friday, May 3rd</div>
           <h4 style="font-size: 32px; margin-bottom: -20px;">The Welcome Dinner</h4>
           <p style="font-size: 24px;">7:00 PM - 9:00 PM</p>
         </div>
 
         <div class="w3-content">
-          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Saturday, May 4th</div>
+          <div class="text-background w3-center" style="width: 100%; display: inline-block; font-size: 20px;">Saturday, May 4th</div>
           <h4 style="font-size: 32px; margin-bottom: -24px;">The Wedding of</h4>
           <h4 style="font-size: 32px; margin-bottom: -20px;">Devin Taylor & Olivia Shlansky</h4>
           <p style="margin-bottom: -16px; font-size: 24px;">4:00 PM</p> 
@@ -653,7 +653,7 @@ a {
         </div>
 
         <div class="w3-content">
-          <div class="text-background w3-center" style="width: 400px; display: inline-block; font-size: 20px;">Sunday, May 5th</div>
+          <div class="text-background w3-center" style="width: 100%; display: inline-block; font-size: 20px;">Sunday, May 5th</div>
           <h4 style="font-size: 32px; margin-bottom: -24px;">Farewell Brunch</h4>
           <p style="font-size: 24px; margin-bottom: -16px;">9:00 AM - 11:00 AM</p>
         </div>
@@ -675,8 +675,8 @@ a {
   </div>
 
   <div class="w3-center w3-hide-medium w3-hide-large" style="margin-bottom:20px;">
-    <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">Accommodations</h3>
-    <img src="icons_frames/WF_House_3.png" alt="Cabin" style="height: 60px; width: 75px;">
+    <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 60px;">Accommodations</h3>
+    <img src="icons_frames/WF_House_3.png" alt="Cabin" style="height: 120px; width: 150px;">
   </div>
 
   <!-- Big Screen -->
@@ -801,8 +801,13 @@ a {
 <!-- FAQs -->
 <div class="w3-content w3-container w3-padding-64" id="gettingaround">
 
-  <div class="w3-center" style="margin-bottom: 20px;">
+  <div class="w3-center w3-hide-small" style="margin-bottom: 20px;">
     <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">Frequently Asked Questions</h3>
+    <img src="icons_frames/WF_Forest_2.png" alt="FAQ" style="height: 150px; width: 200px;">
+  </div>
+
+  <div class="w3-center w3-hide-medium w3-hide-large" style="margin-bottom: 20px;">
+    <h3 style="margin-bottom:30px; font-family: AmostelySignature; font-size: 80px;">FAQs</h3>
     <img src="icons_frames/WF_Forest_2.png" alt="FAQ" style="height: 150px; width: 200px;">
   </div>
   
@@ -831,7 +836,7 @@ a {
 
     <!-- Small Screen -->
     <div class="w3-container w3-center w3-hide-medium w3-hide-large">
-      <h3>FAQ</h3>
+      <h5 style="font-size: 24px;">Coming Soon!</h5>
     </div>
   </div>
 </div>
@@ -1015,7 +1020,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Congrats, Newly Weds!";
   }
 }, 1000);
 
