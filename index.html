@@ -40,21 +40,15 @@ p, li {
   font-size: 18px;
 }
 
-html {
-  height: 100%;
-  width: 100%;
-  font-family: "neuton";
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
+body, html {
   height: 100%;
   width: 100%;
   color: black;
   line-height: 1.8;
   font-family: "neuton";
-  
+  overflow-x: hidden;
+  overflow-y: scroll!important;
+  scroll-behavior: smooth;
 }
 
 * {box-sizing: border-box;}
@@ -1027,7 +1021,7 @@ a {
 
 <script>
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
+document.body.addEventListener('scroll', () => scrollFunction());
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
